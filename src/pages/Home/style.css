@@ -1,0 +1,119 @@
+header {
+  display: flex;
+  background-color: #ffc28c;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+}
+ul {
+  display: flex;
+}
+ul li {
+  font-size: 22px;
+  padding: 15px;
+  list-style: none;
+  margin-left: 80px;
+}
+ul a {
+  text-decoration: none;
+  color: #000000cc;
+  transition: opacity 0.2s;
+}
+ul a:hover {
+  opacity: 0.5;
+}
+
+/* Apresentação */
+.apresentation {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffebd944;
+}
+
+.apresentation div {
+  width: 50%;
+  padding: 30px;
+}
+
+.text h3 {
+}
+.text p {
+  text-align: center;
+}
+
+/* projects */
+.projects {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+}
+
+.projects div img {
+  cursor: pointer;
+  width: 100%;
+  transition: opcaity 0.5s;
+}
+
+.projects div img:hover {
+  opacity: 0.6;
+}
+
+/* contactos */
+.contactos {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contactos div {
+  width: 300px;
+  height: 300px;
+  box-shadow: 2px 2px 8px #4c4c4c;
+  transition: width 0.2s, height 0.4s;
+}
+
+.contactos div img {
+  height: 40px;
+}
+
+.contactos div:hover {
+  width: 400px;
+  height: 400px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.whatsapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer */
+footer {
+  background-color: #ffc28c;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
